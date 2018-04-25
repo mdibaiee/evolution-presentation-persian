@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Iranian Sans';
+  src: url(fonts/IranianSansWeb-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(fonts/Roboto.woff2) format('woff2');
+}
+
+html, body {
+  font-family: 'Iranian Sans';
+  font-size: 35px;
+}
+
+.slide {
+  direction: rtl;
+}
+
+.en {
+  font-family: Roboto;
+}
+
+.slide {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  min-width: 80vw;
+}
+
+p {
+  min-width: 80vw;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+.sub {
+  margin-top: -20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+blockquote {
+  font-style: italic;
+  position: relative;
+}
+
+/*blockquote::before, blockquote::after {*/
+  /*font-size: 4em;*/
+  /*opacity: 0.2;*/
+/*}*/
+
+/*blockquote::after {*/
+  /*content: '»';*/
+  /*position: relative;*/
+  /*top: 20px;*/
+  /*left: -20px;*/
+/*}*/
+
+/*blockquote::before {*/
+  /*content: '«';*/
+  /*position: relative;*/
+  /*top: -10px;*/
+  /*right: -10px;*/
+/*}*/
+
+blockquote .person {
+  position: relative;
+  top: 20px;
+}
+
+.super {
+  font-size: 80px;
+}
+
+.small {
+  font-size: 20px;
+}
+
+.left-image {
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.spaced {
+  justify-content: space-around;
+}
+
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
